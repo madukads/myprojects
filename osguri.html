@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>OsGuri</title>
+</head>
+<body>
+    <header>
+        <h1>Registro</h1>
+
+    </header>
+    <main>
+        <form class="form">
+          <label for="name">Digite seu Nome</label>
+          <br>
+          <input class="G" type="text" id="name" name="name" placeholder="   Insert your name here..."> 
+          <br>
+          <label for="email">Digite seu email</label>
+          <br>
+          <input class="G" type="text" id="email" name="email" placeholder="   Insert your email here..."> 
+          <br>
+          <label for="password">Digite sua senha</label>
+          <div class="G">
+          <div class="container">
+          <input type="password" id="password" oninput="strengthChecker()" placeholder="   Insert your password here...">
+                  </span>
+                 <div id="strength-bar"></div>
+                </div>
+               <p id="msg"></p>
+              </div>
+    <!--Script-->
+            <script src="script.js"></script>
+           <br>
+          <button class="button-30" role="button">Enviar</button>            
+        </form>
+       </main>
+      <footer>
+
+    </footer>
+</body>
+</html>
